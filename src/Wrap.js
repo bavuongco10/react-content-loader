@@ -10,7 +10,6 @@ const Wrap = props => {
       viewBox={`0 0 ${props.width} ${props.height}`}
       version="1.1"
       style={props.style}
-      preserveAspectRatio="xMidYMid meet"
     >
       <rect
         style={{ fill: `url(#${idGradient})` }}
